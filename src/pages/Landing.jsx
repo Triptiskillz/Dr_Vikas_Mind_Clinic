@@ -133,23 +133,46 @@ class Landing extends PureComponent {
                 </div>
                 {/* 3 my services */}
 
-                <div className="hero-services" style={{ marginBottom: "30px" }}>
+                <div className="hero-services">
                     <div className="me-2 ms-2">
                         <div className='container'>
                             <div className="row">
                                 <div className="col-md-12 col-lg-6 m-auto text-center" data-aos="fade-up-right" >
                                     <img src={img3part} width={"100%"}
-                                        height={"100%"} alt="Dr Vikas Mind Clinic" className="img-fluid" style={{ marginTop: '136px' }} />
+                                        height={"100%"} alt="Dr Vikas Mind Clinic" className="img-fluid" style={{ marginTop: '26px' }} />
                                 </div>
-                                <div className="col-md-12 col-lg-6  landing-services" data-aos="fade-up-left">
-                                    <h2 className="blue">Dr Vikas Mind Clinic
+                                <div className="col-md-12 col-lg-6  landing-services" data-aos="fade-up-left" >
+                                    <h2 className="blue text-center">Dr Vikas Mind Clinic
                                         <span className='green'> Cures and Cares  </span></h2>
                                     <p>
                                         There are numerous problems related to mental health.
                                         No matter how young or old one is.
                                         No matter how fit the person may seem to be.
                                         In case, you have any negative thoughts related to your mental health, reach out to a doctor for psychological testing & therapy.
+                                   
+                                    In case, you have any negative thoughts related to your mental health, reach out to a doctor for psychological testing & therapy.
+                                    In case, you have any negative thoughts related to your mental health,
+   
+
                                     </p>
+
+                                    <div className="d-flex justify-content-center pt-3">
+                                        <i class='fa fa-arrow-right pt-1 pe-2 fw-bold blue' style={{ fontSize: "20px" }}></i>
+
+                                        <div>
+                                            <p>
+                                                <Link to="/sexologist-delhi-ncr" className="blue fw-bold text-decoration-none">
+                                                    Sexologist
+                                                </Link>
+                                            </p>
+                                            <p>
+                                                Whether you are facing sexual issues related to erectile dysfunction
+                                                or something is not fine with your married life.
+                                                We can help.
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
 
                                     <div className="d-flex justify-content-center pt-3">
                                         <i class='fa fa-arrow-right pt-1 pe-2 fw-bold blue' style={{ fontSize: "20px" }}></i>
@@ -167,6 +190,7 @@ class Landing extends PureComponent {
                                             </p>
                                         </div>
                                     </div>
+
                                     <div className="d-flex justify-content-center pt-3">
                                         <i class='fa fa-arrow-right pt-1 pe-2 fw-bold blue' style={{ fontSize: "20px" }}></i>
 
@@ -248,10 +272,10 @@ class Landing extends PureComponent {
                     </div>
                 </div>
                 {/* 4 client says */}
-                <div className='landingClientSays' style={{marginTop:"30px"}}>
-                    <div className="me-2 ms-2">
+                <div className='landingClientSays' style={{marginTop:"8px"}}>
+                    <div className="me-2 ms-2" >
                         <div className="container">
-                            <h2 class="blue text-center">
+                            <h2 class="blue text-center pt-4"  >
                                 What our <span className='green'> clients says</span>
                             </h2>
                             <Sliders />

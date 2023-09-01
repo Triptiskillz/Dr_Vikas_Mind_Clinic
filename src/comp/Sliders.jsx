@@ -58,17 +58,16 @@ class Sliders extends Component {
                     ))}
 
                     <div className="row ">
-                        <div className="col-1 mt-4">
+                        <div className="col-1 ">
                             {startnum === 0 ? (<>
                                 <i className="fa fa-long-arrow-left fs-1" style={{ color: "#38a454" }}></i>
 
                             </>) : (<>
                                 <i className="fa fa-long-arrow-left fs-1" style={{ color: "#38a454" }} onClick={() => this.handleRemoveNumber()}></i>
-
                             </>)}
                         </div>
                         {/* <div className="col-1"></div> */}
-                        <div className="col-1 ms-2 mt-4" style={{ color: "#38a454" }}>
+                        <div className="col-1 ms-2 " style={{ color: "#38a454" }}>
                             {data.length === number ? (<>
                                 <i className="fa fa-long-arrow-right fs-1"></i>
 

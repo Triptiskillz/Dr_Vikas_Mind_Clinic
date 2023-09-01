@@ -45,9 +45,9 @@
 }
 
 
-.navbar {
+.navbar1 {
   background: transparent;
-  height: 125px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  /* height: 80px; */
   max-width: 1500px;
 }
 
@@ -82,7 +82,7 @@
   /* font-size: var(--header-3); */
   /* font-weight: 700; */
   align-items: center;
-  margin-bottom: 2rem;
+
 }
 
 
@@ -98,9 +98,9 @@
   margin-right: 2rem;
 }
 
-.nav-item {
+/* .nav-item {
   height: 60px;
-}
+} */
 
 .nav-links {
   color: var(--sencond);
@@ -151,7 +151,7 @@
     /* height: 90vh; */
     /* padding-: 15%; */
     position: absolute;
-    top: 90px;
+    top: 80px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;

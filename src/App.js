@@ -9,18 +9,18 @@ import "./css/service.css";
 import './css/Navbar.css';
 import "./css/App.css";
 
-import Navbar from  "./comp/Navbar";
-import Footer1 from  "./comp/Footer1";
-import Landing from  "./pages/Landing";
-import Service from  "./pages/Service";
-import About from  "./pages/About";
-import DetailService from  "./pages/DetailService";
-import Contact from  "./pages/Contact";
-import Gallery from  "./pages/Gallery";
-import Blogs from  "./pages/Blog";
-import Blog from  "./pages/Blog";
-import Loading from  "./pages/Loading";
-import Footer from  "./comp/Footer";
+import Navbar from "./comp/Navbar";
+import Footer1 from "./comp/Footer1";
+import Landing from "./pages/Landing";
+import Service from "./pages/Service";
+import About from "./pages/About";
+import DetailService from "./pages/DetailService";
+import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
+import Blogs from "./pages/Blogs";
+import Blog from "./pages/Blog";
+import Loading from "./pages/Loading";
+import Footer from "./comp/Footer";
 
 // const Navbar = lazy(() => import("./comp/Navbar"));
 // const Footer1 = lazy(() => import("./comp/Footer1"));
@@ -38,26 +38,21 @@ import Footer from  "./comp/Footer";
 function App() {
   return (
     <>
-
       <BrowserRouter>
         <Navbar />
-        <Suspense fallback={<Loading/>}>
-
+        <Suspense fallback={<Loading />}>
           <Switch>
             <Route path="/blog" render={(props) => <Blog {...props} />} />
             <Route path="/blogs" render={(props) => <Blogs {...props} />} />
             <Route path="/gallery" render={(props) => <Gallery {...props} />} />
             <Route path="/about" render={(props) => <About {...props} />} />
             <Route path="/contact" render={(props) => <Contact {...props} />} />
-           
             <Route path="/service" render={(props) => <Service {...props} />} />
             <Route path="/:name" render={(props) => <DetailService {...props} />} />
             <Route path="/" render={(props) => <Landing {...props} />} />
-
           </Switch>
         </Suspense>
-      <Footer1 />
-
+        <Footer1 />
       </BrowserRouter>
       {/* <Footer /> */}
     </>

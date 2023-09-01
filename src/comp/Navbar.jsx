@@ -71,6 +71,7 @@ function Navbar() {
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => {
+    console.log("hello")
     setOpen(!open);
   };
 
@@ -105,26 +106,28 @@ function Navbar() {
 
   return (
     <>
-      <nav className={navbar ? 'navbar active' : 'navbar'}>
+      <nav className={navbar ? 'navbar1 active' : 'navbar1'}>
         {/* <div className="navbar_container"> */}
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}> <img src={logo} alt='Dr Vikas Mind Clinic Logo' width={100} height={100} />
+        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}> <img src={logo} alt='Dr Vikas Mind Clinic Logo' width={80} height={80} />
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to='/service' className='nav-links' onClick={closeMobileMenu}> Service</Link>
-          </li>
+          </li> */}
 
 
           <div className="dropdown">
-            <button onClick={handleOpen}>Services</button>
+            <button onMouseOver={handleOpen}  onClick={handleOpen}>
+            <Link to='/service' className='nav-links' onClick={closeMobileMenu}> Service</Link>
+            </button>
             {open ? (
               <ul className="menu">
                 {data.data.map((e) => (<>
                   <li className="menu-item">
-                    <Link to={e.url} className="text-decoration-none">{e.title}</Link>
+                    <Link to={e.url} onClick={handleOpen} className="text-decoration-none">{e.title}</Link>
                   </li>
                 </>))}
               </ul>
@@ -137,9 +140,9 @@ function Navbar() {
             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>About</Link>
           </li>
 
-          <li className="nav-item">
-            <Link to='/gallery' className='nav-links' onClick={closeMobileMenu}>Gallery</Link>
-          </li>
+          {/* <li className="nav-item">
+            <Link to='/blogs' className='nav-links' onClick={closeMobileMenu}>Blog</Link>
+          </li> */}
 
           <li className="nav-item">
             <Link to='/contact' className='btn navbarBtn  mt-2'>Contact</Link>

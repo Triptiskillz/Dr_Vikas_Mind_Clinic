@@ -116,7 +116,7 @@ ul {
 }
 
 .landing-services {
-  margin-top: 14rem;
+  margin-top: 5rem;
 }
 
 .landing-services1 {
@@ -217,17 +217,19 @@ ul {
 }
 
 .hero-services {
-  background: linear-gradient(#00000000, #00000000), url("../images/Untitled\ design-2.png");
+  background: linear-gradient(#00000000, #00000000), url("../images/home/2.jpeg");
   max-width: 100%;
   height: auto;
+  margin-top: -2px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .landingClientSays {
-  background: linear-gradient(#00000000, #00000000), url("../images/Untitled\ design-3.png");
+  background: linear-gradient(#00000000, #00000000), url("../images/home/4.jpeg");
   max-width: 100%;
-  height: 60vh;
+  height: auto;
+  margin-top: -2px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -420,8 +422,8 @@ ul {
 .box-video video {
   border-radius: 22px;
   padding: 10px;
-  width: 450px;
-  height: 260px;
+  width: 100%;
+  height: 300px;
   background: #f2f2f2;
   box-shadow: rgba(0, 0, 0, 0.145) 0px 5px 15px;
 }
@@ -503,9 +505,14 @@ ul {
   }
 }
 
+@media (max-width: 1025px) {
+  .landing-services {
+    padding-top: 60px;
+  }
+}
 @media (max-width: 976px) {
   .landing-services {
-    margin-top: 24px;
+    padding-top: 20px;
   }
 
   .multi-column {
@@ -541,12 +548,13 @@ ul {
     background-size: cover;
   }
 
-  .landingClientSays {
-    background: linear-gradient(#00000000, #00000000), url("../images/home/Good Psychiatrist in Delhi.webp");
-    max-width: 100%;
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .box-video video {
+    width: 350px;
+    height: 200px;
+  }
+
+  .landing-services1 {
+    margin-top: 8rem;
   }
 }
 
@@ -602,11 +610,12 @@ ul {
 
 
   .landing-services {
-    margin-top: 24px;
+  margin-top: 20px;
+
   }
 
   .landing-services1 {
-    margin-top: 18rem;
+    margin-top: 5rem;
   }
 
   .leftImg {
@@ -633,12 +642,15 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  .landingClientSays {
-    background: linear-gradient(#00000000, #00000000), url("../images/home/Good Psychiatrist in Delhi.webp");
+  .landingAboutUs {
+    background: linear-gradient(#00000000, #00000000), url("../images/home/bk.jpeg");
     max-width: 100%;
-    height: 60vh;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .box-video video {
+    width: 100%;
+    height: 160px;
   }
 }

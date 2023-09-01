@@ -24,13 +24,13 @@ class ChooseUs extends Component {
             <div className="multi-column">
                 {data.map((e) => (
                     <>
-                        <div className="d-flex justify-content-center mt-4 listLanding p-2" style={{ borderLeft: "4px solid #dedee2" }} data-aos="fade-right"
+                        <div className="d-flex justify-content-start mt-4 listLanding p-2" style={{ borderLeft: "4px solid #dedee2" }} data-aos="fade-right"
                             data-aos-offset="100"
                             data-aos-easing="ease-in-sine">
                             
-                                    <img className="rounded-circle bg-white m-auto p-auto" alt={e.text} src={e.img} width={71} height={71}/>
+                                    <img className="rounded-circle bg-white text-start" alt={e.text} src={e.img} width={71} height={71}/>
                                
-                            <p className="col-md-10  m-auto fw-bold text-white text-start">
+                            <p className="col-md-10 m-auto ms-2 fw-bold text-white text-start">
                                 {e.text}
                             </p>
                         </div>
