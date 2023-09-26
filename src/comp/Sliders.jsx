@@ -1,35 +1,42 @@
 import { Component } from "react";
 import v1 from '../video/1.mp4'
 import v2 from '../video/2.1.mp4'
+import v3 from '../video/3.mp4'
+
 
 class Sliders extends Component {
     state = {
         data: [
             {
                 id: 1,
-                url  : v1,
+                url  : 'https://youtu.be/ILGEvOB_zvE',
                
             },
             {
                 id: 2,
-                url: v2,
+                url: 'https://youtube.com/shorts/t6Qgtc2850U',
+        
+            },
+            {
+                id: 3,
+                url: 'https://youtu.be/qMBUjkGiL00',
         
             },
             
         ],
         startnum: 0,
-        number: 1
+        number: 2
     }
     handleReadMoreAdd = () => {
         let s1 = { ...this.state }
         s1.startnum = s1.number + 1
-        s1.number += 2
+        s1.number += 3
         this.setState(s1)
     }
     handleRemoveNumber = () => {
         let s1 = { ...this.state }
-        s1.number -= 2
-        s1.startnum = s1.number - 2
+        s1.number -= 3
+        s1.startnum = s1.number - 3
         this.setState(s1)
     }
     render() {
@@ -37,14 +44,14 @@ class Sliders extends Component {
         let startIndex = startnum;
         let endIndex = number
         // console.log(endIndex,data.length)
-        var prod1 = data.length > 2 ? data.filter((lt, index) => index >= startIndex && index <= endIndex)
+        var prod1 = data.length > 3 ? data.filter((lt, index) => index >= startIndex && index <= endIndex)
             : data
         return (
             <>
                 <div className="row text-center">
                     {prod1.map((d) => (
                         <>
-                            <div className="col-md-6 col-lg-6 pt-4" data-aos="fade-zoom-in"
+                            <div className="col-md-12 col-lg-4 pt-4" data-aos="fade-zoom-in"
                                 data-aos-easing="ease-in-back"
                                 data-aos-delay="300"
                                 data-aos-offset="0">

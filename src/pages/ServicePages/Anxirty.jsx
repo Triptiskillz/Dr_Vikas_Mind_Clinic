@@ -29,7 +29,7 @@ class Anxirty extends PureComponent {
                         </p>
                         <p className="text-center mt-2" >Unstable jobs, harsh work environments, broken relationships, abuse, trauma, etc. can lead to anxiety disorders.
                             Handling it on your own is not easy. For better management, taking help from the best psychiatrist in West Delhi for anxiety allows one to lead a normal life.
-                            Dr. Vikas Moun is <Link to="/OCD-doctor-delhi">best psychiatrist in Delhi</Link> who treats all kinds of anxiety disorders.
+                            Dr. Vikas Moun is  <Link to="/OCD-doctor-delhi"> best psychiatrist in Delhi</Link> who treats all kinds of anxiety disorders.
                             Anxiety disorders additionally make you suffer with migraine. This <Link to='/migraine-headache-doctor-delhi'>best doctor for migraine in Delhi</Link> will bring great relief to you.
                             Other than this, anxiety may also crop due to resisting compulsions. Seeking out <Link to='/OCD-doctor-delhi'>best OCD treatment in Delhi</Link> will treat your anxiety and stress.
                             Handling it on your own may not be easy. If you constantly feel stressed about nothing, read further to know about anxiety treatment in Delhi.

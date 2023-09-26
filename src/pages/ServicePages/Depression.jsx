@@ -78,8 +78,7 @@ class Depression extends PureComponent {
                                 <p className="mt-2">
                                     There are many who may not even emote much visible symptoms.
                                     Your depressed feeling may be due to another mental issue bipolar disorder.
-                                    Providing <Link to='/bipolar-disorder-doctor-delhi'>bipolar disorder treatment in Delhi</Link>
-                                    included in the same treatment will be on us. Only a visit to this <Link to='/'>top psychiatrist
+                                    Providing <Link to='/bipolar-disorder-doctor-delhi'>bipolar disorder treatment in Delhi</Link> included in the same treatment will be on us. Only a visit to this <Link to='/'>top psychiatrist
                                         in Delhi</Link> can identify the type of depression.
                                 </p>
                             </div>

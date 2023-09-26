@@ -33,8 +33,8 @@ class Sleepdisorder extends PureComponent {
                         </p>
                         <p className="mt-2 text-center">
                             If left untreated, sleeping issues lead to several serious health issues like heart attack, depression, blood pressure, etc.
-                            Fortunately, with availability of good doctors for sleep disorders in Delhi, one can get treated easily.
-                            <b>Dr.Vikas Moun</b>, an <b>MBBS MD</b> is a well <Link to='/'>Psychiatrist in West Delhi </Link> who treats various sleep disorders in young and old.
+                            Fortunately, with availability of good doctors for sleep disorders in Delhi, one can get treated easily
+                            <b> Dr.Vikas Moun</b>, an <b>MBBS MD</b> is a well <Link to='/'>Psychiatrist in West Delhi</Link> who treats various sleep disorders in young and old.
                         </p>
                     </div>
                 </div>

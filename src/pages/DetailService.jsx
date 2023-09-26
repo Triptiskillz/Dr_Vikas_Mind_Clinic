@@ -425,24 +425,24 @@ class DetailService extends PureComponent {
 
 
                 {/*  client says */}
-
-                {/* <div className="text-center landingClientSays" style={{ marginTop: "5rem" }}>
-                    <div className="me-2 ms-2">
-                        <div class="text-hero-bold">
-                            What our <span> clients says</span>
-                            <div className="mt-4 container">
-                                <Sliders />
-                            </div>
+                <div className='landingClientSays' style={{marginTop:"8px"}}>
+                    <div className="me-2 ms-2" >
+                        <div className="container">
+                            <h2 class="blue text-center pt-4"  >
+                                What our <span className='green'> clients says</span>
+                            </h2>
+                            <Sliders />
                         </div>
                     </div>
-                </div> */}
+                </div>
 
                 <div className="me-2 ms-2 hadingspace">
                     <div className="mt-4 container" >
                         <div className="row">
                             <div className="col-md-7 ">
-                                <iframe src=
-                                    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.2233913121413!2d77.4051603706222!3d28.50292593193056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce626851f7009%3A0x621185133cfd1ad1!2sGeeksforGeeks!5e0!3m2!1sen!2sin!4v1585040658255!5m2!1sen!2sin"
+                                <iframe
+                                    
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14001.539402923576!2d77.0646746!3d28.6781322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0951449365ff%3A0xae56d0cb508f2d32!2sDr%20Vikas%20Mind%20Care%20Clinic!5e0!3m2!1sen!2sin!4v1691764525188!5m2!1sen!2sin"
                                     width="100%"
                                     height="100%"
                                     frameborder="0"

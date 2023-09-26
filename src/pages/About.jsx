@@ -127,7 +127,15 @@ class About extends PureComponent {
                 <RankList show={false} />
 
                 </div>
-
+                <div className="">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14001.539402923576!2d77.0646746!3d28.6781322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0951449365ff%3A0xae56d0cb508f2d32!2sDr%20Vikas%20Mind%20Care%20Clinic!5e0!3m2!1sen!2sin!4v1691764525188!5m2!1sen!2sin"
+                                width="100%"
+                                height="300px"
+                                // style="border:0;" 
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
             </Fragment>
         )
     }

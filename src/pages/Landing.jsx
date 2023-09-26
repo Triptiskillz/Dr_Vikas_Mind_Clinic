@@ -149,10 +149,7 @@ class Landing extends PureComponent {
                                         No matter how young or old one is.
                                         No matter how fit the person may seem to be.
                                         In case, you have any negative thoughts related to your mental health, reach out to a doctor for psychological testing & therapy.
-                                   
-                                    In case, you have any negative thoughts related to your mental health, reach out to a doctor for psychological testing & therapy.
-                                    In case, you have any negative thoughts related to your mental health,
-   
+                                        We are aware of the latest technical aspects and have been practicing these. In these 8 years of practice we have gone through many researches related to psychiatry and implemented with utmost care. 
 
                                     </p>
 
@@ -179,14 +176,12 @@ class Landing extends PureComponent {
 
                                         <div>
                                             <p>
-                                                <Link to="/sexologist-delhi-ncr" className="blue fw-bold text-decoration-none">
-                                                    Sexologist
+                                                <Link to="/psychiatrist-in-delhi-for-anxiety" className="blue fw-bold text-decoration-none">
+                                                Anxiety
                                                 </Link>
                                             </p>
                                             <p>
-                                                Whether you are facing sexual issues related to erectile dysfunction
-                                                or something is not fine with your married life.
-                                                We can help.
+                                            Anxiety is becoming quite common and the reasons are found to be quite obvious like work environment, relationships, etc
                                             </p>
                                         </div>
                                     </div>
@@ -363,6 +358,17 @@ class Landing extends PureComponent {
                         </div>
                     </div>
                 </div>
+
+
+                <div className="">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14001.539402923576!2d77.0646746!3d28.6781322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0951449365ff%3A0xae56d0cb508f2d32!2sDr%20Vikas%20Mind%20Care%20Clinic!5e0!3m2!1sen!2sin!4v1691764525188!5m2!1sen!2sin"
+                                width="100%"
+                                height="300px"
+                                // style="border:0;" 
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
             </Fragment>
         );
     }

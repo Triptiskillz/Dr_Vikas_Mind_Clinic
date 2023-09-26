@@ -81,8 +81,7 @@ class Headache extends PureComponent {
                                     <br />
                                     To know how to manage your life around these triggers, consult with best doctor for headache
                                     in West Delhi, Dr. Vikas Moun. Migraines and headaches do create sleep disorders like insomnia.
-                                    To manage your sleep, take help from this
-                                    <Link to='/sleep-disorder-treatment-delhi'>sleep disorder doctor in Delhi.</Link>
+                                    To manage your sleep, take help from this <Link to='/sleep-disorder-treatment-delhi'>sleep disorder doctor in Delhi.</Link>
                                 </p>
                             </div>
                             <div className="hadingspace">

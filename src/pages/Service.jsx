@@ -2,7 +2,7 @@ import { PureComponent, Fragment } from "react";
 // import img3 from '../images/3.png'
 import OurService from '../comp/OurService'
 import ChooseUs from "../comp/ChooseUs";
-// import Sliders from '../comp/Sliders'
+import Sliders from '../comp/Sliders'
 import { Helmet } from 'react-helmet';
 import FAQ from "../comp/FAQ";
 import { Link } from "react-router-dom";
@@ -67,17 +67,30 @@ class Service extends PureComponent {
                 {/*  client says */}
 
 
-                {/* <div className='landingClientSays'>
-                    <div className="container mt-4">
-                        <div className="text-hero-bold text-center">
-                            What our <span> clients says</span>
+                <div className='landingClientSays' style={{marginTop:"8px"}}>
+                    <div className="me-2 ms-2" >
+                        <div className="container">
+                            <h2 class="blue text-center pt-4"  >
+                                What our <span className='green'> clients says</span>
+                            </h2>
+                            <Sliders />
                         </div>
-                        <Sliders />
                     </div>
-                </div> */}
+                </div>
                 {/* FAQ */}
 
                 {/* <FAQ /> */}
+
+
+                <div className="">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14001.539402923576!2d77.0646746!3d28.6781322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0951449365ff%3A0xae56d0cb508f2d32!2sDr%20Vikas%20Mind%20Care%20Clinic!5e0!3m2!1sen!2sin!4v1691764525188!5m2!1sen!2sin"
+                                width="100%"
+                                height="300px"
+                                // style="border:0;" 
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
             </Fragment>
         )
     }

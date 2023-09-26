@@ -9,7 +9,7 @@ import "./css/service.css";
 import './css/Navbar.css';
 import "./css/App.css";
 
-import Navbar from "./comp/Navbar";
+import Navbar1 from "./comp/Navbar1";
 import Footer1 from "./comp/Footer1";
 import Landing from "./pages/Landing";
 import Service from "./pages/Service";
@@ -39,7 +39,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
+        <Navbar1 />
         <Suspense fallback={<Loading />}>
           <Switch>
             <Route path="/blog" render={(props) => <Blog {...props} />} />

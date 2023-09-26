@@ -24,8 +24,7 @@ class Epilepsy extends PureComponent {
                         <p className="text-center">
                             Epilepsy is a neurological disorder due to abnormal electrical activity in the brain.
                             This results in unprovoked seizures and other symptoms on which a patient has no control.
-                            Many such patients suffer from psychotic disorders and need treatment from
-                            <Link to='/'>best psychiatrist in Delhi</Link>.
+                            Many such patients suffer from psychotic disorders and need treatment from <Link to='/'>best psychiatrist in Delhi</Link>.
                         </p>
                         <p className="mt-2 text-center">
                             Sometimes some have non-epileptic seizures like fits, convulsions actually occur as a physical

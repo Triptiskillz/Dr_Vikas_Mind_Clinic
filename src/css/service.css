@@ -1,5 +1,7 @@
 .Service-hero {
-  background: linear-gradient(rgba(195, 195, 195, 0.57), rgba(200, 200, 200, 0.526)), url("../images/banner.jpeg");
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.40798326166404064) 0%, rgba(56,164,84,0.4556023092830882) 50%, rgba(0,83,123,0.2735294801514355) 100%),url("../images/banner-all.gif"); 
+  /* background: linear-gradient(rgba(195, 195, 195, 0.57), rgba(200, 200, 200, 0.526)), url("../images/banner-all.gif"); */
   background-position: center;
   background-repeat: no-repeat;
   /* height:10rem; */

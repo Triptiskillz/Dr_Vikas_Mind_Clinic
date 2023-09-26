@@ -271,13 +271,9 @@ ul {
   background: linear-gradient(90deg, rgba(0, 83, 123, 1) 35%, rgba(255, 255, 255, 1) 100%);
 }
 
-/* .footerimg {
-  background: linear-gradient(#00000000, #00000000), url("../images/home/Cure for Mental Disorder.webp");
-  max-width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+.footerimg {
+  background-color:var(--sencond) 
+}
 
 
 
@@ -407,7 +403,7 @@ ul {
 }
 
 .footer {
-  background-color: var(--primary) !important;
+  background-color: var(--sencond) !important;
 }
 
 /* .box-video{
@@ -574,7 +570,7 @@ ul {
   }
 
   .navbar {
-    padding: 28px 0;
+    padding: 0px 0;
   }
 
   a.nav-link {
@@ -587,7 +583,7 @@ ul {
   }
 
   .navbar {
-    padding: 28px 0;
+    padding: 0px 0;
   }
 
   a.nav-link {
@@ -610,12 +606,12 @@ ul {
 
 
   .landing-services {
-  margin-top: 20px;
+  margin-top: 4px;
 
   }
 
   .landing-services1 {
-    margin-top: 5rem;
+    margin-top: 20px;
   }
 
   .leftImg {
@@ -635,13 +631,6 @@ ul {
     background-size: cover;
   }
 
-  .landingAboutUs {
-    background: linear-gradient(#00000000, #00000000), url("../images/home/bg-7.webp");
-    max-width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
   .landingAboutUs {
     background: linear-gradient(#00000000, #00000000), url("../images/home/bk.jpeg");
     max-width: 100%;
