@@ -15,6 +15,9 @@ class Anxirty extends PureComponent {
                     <title>Best Psychiatrist in Delhi for Anxiety Disorder | Dr. Vikas Moun</title>
                     <meta name="description" content="Dr Vikas Moun is the Best psychiatrist in Delhi NCR for Anxiety treatment in Delhi NCR with more than 10 years of experience." />
                 </Helmet>
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RVNGGVP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
                 <div className="Service-hero d-flex justify-content-center">
                     <div className="mt-4 pt-4 text-center blue me-2 ms-2 mb-4 pb-4 container">
                         <h1 className="mt-4 mb-4 pb-4 pt-4">Best Psychiatrist in Delhi for Anxiety: Dr. Vikas Moun</h1>

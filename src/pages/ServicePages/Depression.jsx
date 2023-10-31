@@ -13,6 +13,9 @@ class Depression extends PureComponent {
                     <title>Depression Doctor in Delhi NCR | Dr. Vikas Moun (Psychiatrist)</title>
                     <meta name="description" content="Dr Vikas Moun is the Best doctor for depression treatment in Delhi NCR with more than 10 years of experience. He is a Psychiatrist with MD in Psychiatry." />
                 </Helmet>
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RVNGGVP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
                 <div className="Service-hero d-flex justify-content-center">
                     <div className="blue text-center me-2 ms-2 mt-4 pt-4 mb-4 pb-4 container">
                         <h1 className="mt-4 mb-4 pb-4 pt-4">

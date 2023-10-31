@@ -12,6 +12,9 @@ class OCD extends PureComponent {
                     <title>Best Doctor for OCD in Delhi NCR | Dr. Vikas Moun (Psychiatrist)</title>
                     <meta name="description" content="Dr Vikas is the Best doctor for OCD treatment in Delhi NCR. He is a Psychiatrist with MD in Psychiatry and has been treating patients for more than 10 years." />
                 </Helmet>
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RVNGGVP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
                 <div className="Service-hero d-flex justify-content-center">
                     <div className=" text-center blue mt-4 pt-4  me-2 ms-2 mb-4 pb-4 container">
                         <h1 className="mt-4 mb-4 pb-4 pt-4">

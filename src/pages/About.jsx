@@ -56,7 +56,14 @@ class About extends PureComponent {
                 <Helmet>
                     <title>About Dr Vikas Moun | Dr Vikas Mind Clinic</title>
                     <meta name="description" content="Let us know a Brief about Dr Vikas Moun and Dr Vikas Mind Care Clinic." />
+
+                    
+
+
                 </Helmet>
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RVNGGVP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
                 <div className="Service-hero d-flex justify-content-center">
                     <div className="text-center blue mt-4 pt-4 mb-4 pb-4 container">
                         <h1 className="mt-4 pt-4">About  Us</h1>
@@ -81,7 +88,7 @@ class About extends PureComponent {
                             </div>
                             <div className="col-md-6">
                                 <h2 className="blue">
-                                    Trusted Psychiatrist<br/>
+                                    Trusted Psychiatrist<br />
                                     Your First Step for a  <span className="green"> Better Life </span>
                                 </h2>
                                 <p>
@@ -107,35 +114,35 @@ class About extends PureComponent {
                             <div className="row pb-4">
                                 {data.map((e) => (
                                     <div className="col-md-6 col-lg-4 mt-4" >
-                                            <div className="text-center m-auto">
-                                                <img src={e.img} alt="#" className="img-fluid " width={100} />
-                                            </div>
-                                            <div className="text-white text-center m-auto">
-                                                <p className="fw-bold white">{e.title}</p>
-                                                <p className="white">{e.des}</p>
-
-                                            </div>
+                                        <div className="text-center m-auto">
+                                            <img src={e.img} alt="#" className="img-fluid " width={100} />
                                         </div>
-                                  
+                                        <div className="text-white text-center m-auto">
+                                            <p className="fw-bold white">{e.title}</p>
+                                            <p className="white">{e.des}</p>
+
+                                        </div>
+                                    </div>
+
                                 ))}
 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div style={{ paddingTop: "30px", paddingBottom:"30px" }}>
-                <RankList show={false} />
+                <div style={{ paddingTop: "30px", paddingBottom: "30px" }}>
+                    <RankList show={false} />
 
                 </div>
                 <div className="">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14001.539402923576!2d77.0646746!3d28.6781322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0951449365ff%3A0xae56d0cb508f2d32!2sDr%20Vikas%20Mind%20Care%20Clinic!5e0!3m2!1sen!2sin!4v1691764525188!5m2!1sen!2sin"
-                                width="100%"
-                                height="300px"
-                                // style="border:0;" 
-                                allowfullscreen=""
-                                loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14001.539402923576!2d77.0646746!3d28.6781322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0951449365ff%3A0xae56d0cb508f2d32!2sDr%20Vikas%20Mind%20Care%20Clinic!5e0!3m2!1sen!2sin!4v1691764525188!5m2!1sen!2sin"
+                        width="100%"
+                        height="300px"
+                        // style="border:0;" 
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </Fragment>
         )
     }

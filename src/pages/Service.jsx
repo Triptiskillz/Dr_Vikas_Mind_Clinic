@@ -15,7 +15,9 @@ class Service extends PureComponent {
                     <title>Treatments Provided at Dr Vikas Mind Clinic</title>
                     <meta name="description" content="Here are the various Treatments provided at Dr Vikas Mind Clinic." />
                 </Helmet>
-            
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RVNGGVP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
                 <div className="Service-hero d-flex justify-content-center">
                     <div className="text-center mt-4 pt-4 mb-4 pb-4 container">
                         <h1 className="mt-4 blue mb-4 pb-4 pt-4">

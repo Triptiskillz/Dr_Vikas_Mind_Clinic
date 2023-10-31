@@ -21,7 +21,7 @@ import Blogs from "./pages/Blogs";
 import Blog from "./pages/Blog";
 import Loading from "./pages/Loading";
 import Footer from "./comp/Footer";
-
+import Thankyou from "./pages/Thankyou";
 // const Navbar = lazy(() => import("./comp/Navbar"));
 // const Footer1 = lazy(() => import("./comp/Footer1"));
 // const Landing = lazy(() => import("./pages/Landing"))
@@ -42,6 +42,7 @@ function App() {
         <Navbar1 />
         <Suspense fallback={<Loading />}>
           <Switch>
+          <Route path="/thankyou" render={(props) => <Thankyou {...props} />} />
             <Route path="/blog" render={(props) => <Blog {...props} />} />
             <Route path="/blogs" render={(props) => <Blogs {...props} />} />
             <Route path="/gallery" render={(props) => <Gallery {...props} />} />

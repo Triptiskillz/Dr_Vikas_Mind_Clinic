@@ -49,6 +49,9 @@ class Landing extends PureComponent {
                     <title>Best Psychiatrist in Delhi | Dr Vikas Mind Clinic</title>
                     <meta name="description" content="Dr Vikas Moun is MD in Psychiatry. He is the Best Psychiatrist in Delhi NCR with more than 10 years of experience." />
                 </Helmet>
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RVNGGVP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
                 <div className="whatsapp">
                     <a href="https://wa.me/917015639614" aria-label="whata app" target="_blank" id="togglw1" className="wtsapp">
                         <i class="fa fa-whatsapp"></i>

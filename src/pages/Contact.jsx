@@ -16,7 +16,11 @@ class Contact extends PureComponent {
                 <Helmet>
                     <title>Contact Dr Vikas Mind Care Clinic</title>
                     <meta name="description" content="Contact Dr Vikas Mind Clinic and book an appointment to meet Dr Vikas Moun in person." />
+                    
                 </Helmet>
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RVNGGVP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
                 <div className="Service-hero d-flex justify-content-center mb-4">
                     <div className="fs-1 fw-bold text-center text-white mt-4 pt-4 mb-4 pb-4 container">
                         <h1 className="blue mt-4 pt-4">Contact  Us</h1>

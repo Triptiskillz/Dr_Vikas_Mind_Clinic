@@ -12,6 +12,9 @@ class Neuropsychiatrist extends PureComponent {
                     <title>Best Neuro Psychiatrist in Delhi NCR | Dr. Vikas Moun</title>
                     <meta name="description" content="Dr Vikas Moun MBBS MD is the best neuropsychiatrist in Delhi NCR with more than 10 years of experience of treatment various types of disorders." />
                 </Helmet>
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RVNGGVP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
                 <div className="Service-hero d-flex justify-content-center">
                     <div className="text-center blue me-2 ms-2 mt-4 pt-4 mb-4 pb-4 container">
                         <h1 className="mt-4 mb-4 pb-4 pt-4">
