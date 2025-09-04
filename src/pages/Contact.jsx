@@ -52,8 +52,7 @@ class Contact extends PureComponent {
                 className="text-decoration-none"
               >
                 <p>
-                  First floor, near Sankalp hospital, Najafgarh road, Nangloi,
-                  110041
+                  Ground Floor, Below Mi Service Centre, Opposite Central Bank of India, Near Bank of Baroda, Najafgarh Road, Nangloi
                 </p>
               </a>
 

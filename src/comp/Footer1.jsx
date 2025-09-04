@@ -41,7 +41,7 @@ class Footer1 extends Component {
                                 </div>
                                 <div class="d-flex justify-content-start mt-2 ">
                                     <i class="fa fa-home fs-2 me-3 " style={{ color: "white" }} aria-hidden="true"></i>
-                                    <p className="white"> First floor, near Sankalp hospital,Najafgarh road, Nangloi, 110041</p>
+                                    <p className="white"> Ground Floor, Below Mi Service Centre, Opposite Central Bank of India, Near Bank of Baroda, Najafgarh Road, Nangloi</p>
                                 </div>
 
 
